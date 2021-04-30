@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanGu.Lucene.Analyzer", "Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanGu.Lucene.Demo", "PanGu.Lucene.Demo\PanGu.Lucene.Demo.csproj", "{70C72860-78C0-4E12-B358-32D44E5D4C48}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangu.Demo", "PanGu.Demo\Pangu.Demo.csproj", "{D54933DC-44AC-4BFA-940C-E7D53CAEB493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangu.SettingsTool", "Pangu.SettingsTool\Pangu.SettingsTool.csproj", "{D54933DC-44AC-4BFA-940C-E7D53CAEB493}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

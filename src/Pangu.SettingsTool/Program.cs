@@ -19,7 +19,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace Demo
+namespace Pangu.SettingsTool
 {
     static class Program
     {
@@ -31,7 +31,7 @@ namespace Demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormDemo());
+            Application.Run(new ToolForm());
         }
     }
 }

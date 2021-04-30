@@ -50,7 +50,10 @@ namespace PanGuLucene.Demo
                 "【拥有“全球最美海滩”的塞舌尔将对中国游客免签！】#便民提示#准备出国白相的筒子冒个泡吧~你们有福啦。拥有“全球最美丽的海滩”和“最洁净的海水”美誉的塞舌尔，将可凭我国有效护照免签入境，最多停留30天这里还是英国威廉王子和王妃的蜜月地~~所以，别再只盯着马尔代夫一处啦",
                 "【用数据告诉你手游有多热】今天，作为本届GMIC 的一部分，GGS全球移动游戏峰会召开。嘉宾和游戏开发者们探讨了移动游戏的现状与发展趋势。手游则是最为重要的一大关键词。盛大游戏总裁钱东海分享了日本最大手游公司CEO预测的数据：2015年全球游戏产业的格局中80%都是手机游戏。http://t.cn/zTHdkFY"
             };
-
+            if (!INDEX_DIR.Exists)
+            {
+                INDEX_DIR.Create();
+            }
             IndexWriter iw = new IndexWriter(FSDirectory.Open(INDEX_DIR), analyzer, true, IndexWriter.MaxFieldLength.LIMITED);
             int i = 0;
             foreach (string text in texts)

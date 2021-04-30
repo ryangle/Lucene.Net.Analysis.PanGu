@@ -8,14 +8,4 @@
     <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="Resources\ChsDoubleName1.txt" />
-    <Resource Include="Resources\ChsDoubleName2.txt" />
-    <Resource Include="Resources\ChsSingleName.txt" />
-    <Resource Include="Resources\Dict.dct" />
-    <Resource Include="Resources\Stopword.txt" />
-    <Resource Include="Resources\Synonym.txt" />
-    <Resource Include="Resources\Wildcard.txt" />
-  </ItemGroup>
-
 </Project>
